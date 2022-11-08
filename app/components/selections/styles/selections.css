@@ -5,6 +5,10 @@
 .selections__subtitle {
   border: 1px solid black;
   border-radius: 6px;
+  box-shadow: 4px 4px 30px -12px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px 4px 30px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 30px -12px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 30px -12px rgba(0,0,0,0.75);
 }
 
 .card__container {
