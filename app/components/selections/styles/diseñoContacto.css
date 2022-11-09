@@ -1,0 +1,44 @@
+.Footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+    background-color: #04091A;
+}
+
+.Titulo {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size:22px;
+}
+
+.conteinerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerMessage {
+    flex: 50%;
+}
+
+.Message {
+    width: 250px;
+    margin: 0px auto;
+    color: white;
+    text-align: justify;
+}
+
+
+.containerForm {
+    flex: 50%;
+}
+
+.containerFields {
+    width: 250px;
+    color: #fff;
+    text-align: center;
+    margin:0px auto;
+}
