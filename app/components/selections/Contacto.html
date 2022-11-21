@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/diseñoContacto.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/e84c045626.js" crossorigin="anonymous"></script>
     <title>Document</title>
     
 </head>
@@ -22,14 +23,31 @@
         <div class="containerForm">
             <div class="containerFields">
                 <form>
-                    <label for="fname">Nombre</label><br>
-                    <input type="text" id="fname" name="fname" value="Nombre"><br>
-                    <label for="lname">Correo</label><br>
-                    <input type="text" id="lname" name="lname" value="Correo"><br><br>
-                    <input type="submit" value="ENVIAR MENSAJE">
+                    <input type="text" class="fname" name="fname" placeholder="Ingresa tu Nombre" title="Nombre"><br>
+                    <input type="text" class="lname" name="lname" placeholder="Ingresa tu Correo" title="Ingresa tu Correo"><br><br>
+                    <input type="text" class="ltext" name="lname" placeholder="Mensaje" title="Mensaje">
+                    <input type="submit" id="btnSubmit" value="ENVIAR MENSAJE">
                   </form> 
             </div>
         </div>
+        </div>
+    </div>
+    <div class="containerCopyright">
+        <div class="imgFootball">
+            <img src="./assets/balon.png" width="90"></img>
+        </div>
+        <div class="msgCopyright">
+            <div class="copyright">
+                <p>LA CASA DEL MUNDIAL Copyright 2022 - Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="redSocial">
+            <div class="social">
+                <a href="#" class="fa fa-phone"></a>
+                <a href="#" class="fa fa-envelope"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
         </div>
     </div>
 </footer>
