@@ -1,12 +1,19 @@
 body{
     margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 header{
     display: flex;
-    height: 60px;
+    min-height: 60px;
     background-color: rgb(9, 15, 66);
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -17,4 +24,19 @@ header{
     height: 40px;
     margin-left: 30px;
     margin-top: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+nav a:hover{
+    color: #80000A;
+}
+
+@media (max-width:700px){
+    header{
+      flex-direction: column;  
+    }
 }
