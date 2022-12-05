@@ -157,3 +157,45 @@ nav a:hover{
     }
     
 }
+
+.arrow {
+    border-radius: 50%;
+    background-color: #450707;
+    padding: 5px;
+    font-size: 15px;
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    z-index: 1000;
+}
+
+.arrow-animation {
+  
+    animation-name: arrow;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:arrow;
+    -webkit-animation-duration: 100s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes arrow{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes arrow {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes arrow {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
