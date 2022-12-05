@@ -1,0 +1,46 @@
+main{
+  padding: 2%;
+  background: linear-gradient(185.66deg, rgb(28, 1, 17) 5.13%, rgb(63, 7, 29) 49.3%, rgb(93, 13, 40) 87.75%, rgb(138,21,56) 145.92%);
+}
+img{
+  width: 8mm;
+  height: 4mm;
+}
+
+table{
+  padding: 1%;
+  background-color: rgb(138, 21, 56);
+}
+
+caption{
+  padding: 2%;
+  color: aliceblue;
+  size: 10px;
+}
+th{
+  padding: 2%;
+  text-align: center;
+  max-width: 500px;
+  background-color: white;
+  color: rgb(138, 21, 56);
+  border-radius: 5%;
+}
+
+td{
+  padding-left: 2%;
+  text-align: left;
+  color: rgb(138, 21, 56);
+  width: 150px;
+  background-color: azure;
+  border-radius: 25%;
+}
+
+col{
+  padding: 2%;
+  background-color: blue;
+  border-radius: 50%;
+}
+table#space {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
