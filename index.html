@@ -140,10 +140,10 @@
             <p class="Message">En la casa del mundial nos debemos a ustedes, los fanaticos, es por ello que habilitamos esta sección de contacto para que nos dejes tus comentarios.</p>
         </div>
         <div class="containerForm">
-            <form class="containerFields">
-                <input type="text" class="fname" name="fname" placeholder="Ingresa tu Nombre" title="Nombre"><br>
-                <input type="text" class="lname" name="lname" placeholder="Ingresa tu Correo" title="Ingresa tu Correo"><br><br>
-                <input type="text" class="ltext" name="lname" placeholder="Mensaje" title="Mensaje">
+            <form class="containerFields" id="form">
+                <input type="text" class="fname" name="fname" placeholder="Ingresa tu Nombre" title="Nombre" minlength="5" required><br>
+                <input type="email" class="lname" name="lname" placeholder="Ingresa tu Correo" title="Ingresa tu Correo" minlength="5" required><br><br>
+                <input type="text" class="ltext" name="lname" placeholder="Mensaje" title="Mensaje" minlength="5" maxlength="100" required>
                 <input type="submit" id="btnSubmit" value="ENVIAR MENSAJE">
             </form> 
         </div>

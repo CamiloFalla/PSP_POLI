@@ -1,5 +1,7 @@
-window.addEventListener("load", function() {
-    this.document.getElementById("btnSubmit").addEventListener("click", function() {
-        alert("Mensaje enviado con éxito");
-    })
-})
+const form = document.getElementById('form');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    alert("Mensaje enviado con éxito");
+    form.reset()
+});
