@@ -1,29 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Footer */
-
-.Footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #04091A;
-}
-
-.Titulo {
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 20px;
-}
-
 .conteinerInfo {
-    width:100%;
+    width:80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,12 +15,10 @@
 }
 
 .Message {
-    width: 400px;
-    color: white;
     text-align: center;
-    font-size: 24px;
-    font-family: Poppins;
-    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
 }
 
 .containerFields {
@@ -58,6 +32,7 @@
     height:50px;
     margin-bottom: 25px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .lname {
@@ -65,6 +40,7 @@
     height:50px;
     margin-bottom: 25px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .ltext {
@@ -73,6 +49,7 @@
     margin-bottom: 25px;
     border-radius: 10px;
     border-color: #fff;
+    padding: 10px;
 }
 
 #btnSubmit {
@@ -103,7 +80,7 @@
 
 .msgCopyright .copyright {
     color: #fff;
-    font-size: 16px;
+    font-size: 10px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -122,9 +99,9 @@
 .containerCopyright .redSocial .social a{
     display: inline-block;
     text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     color: #450707;
     margin-right: 10px;
     background-color: #fff;

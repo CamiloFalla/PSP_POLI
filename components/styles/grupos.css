@@ -1,8 +1,8 @@
-main{
+.groups {
   padding: 2%;
   background: linear-gradient(185.66deg, rgb(28, 1, 17) 5.13%, rgb(63, 7, 29) 49.3%, rgb(93, 13, 40) 87.75%, rgb(138,21,56) 145.92%);
 }
-img{
+.group-img {
   width: 8mm;
   height: 4mm;
 }
@@ -10,6 +10,8 @@ img{
 table{
   padding: 1%;
   background-color: rgb(138, 21, 56);
+  margin: 0 auto;
+  width: 80%;
 }
 
 caption{
